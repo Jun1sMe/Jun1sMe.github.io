@@ -11,8 +11,8 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:year/:month/:slug/
 
-# googleAnalytics: your-google-analytics-id
-# disqusShortname: your-disqus-shortname
+googleAnalytics: G-6M33N4VGSN
+disqusShortname: jun1sme
 
 ## Hugo Configure Markup
 ## More info: https://gohugo.io/getting-started/configuration-markup#
