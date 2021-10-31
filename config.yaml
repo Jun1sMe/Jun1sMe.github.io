@@ -1,15 +1,15 @@
-baseURL: https://yuwuu.github.io/
+baseURL: https://jun1sme.github.io/
 languageCode: zh-tw
 title: JuJu爸爸..有話想
 theme: mini
-paginate: 6
+paginate: 7
 
 ## Default content language, support en (English) / zh (Chinese) / nl (Dutch), default 'en'
 defaultContentLanguage: en
 
 hasCJKLanguage: true
 permalinks:
-  posts: /posts/:year/:month/:slug/
+  posts: /:year/:month/:slug/
 
 googleAnalytics: G-6M33N4VGSN
 disqusShortname: jun1sme
