@@ -1,6 +1,6 @@
 baseURL: https://jun1sme.github.io/
-languageCode: zh-TW
-theme: stack
+languageCode: en-us
+theme: hugo-theme-stack
 paginate: 7
 title: JuJu爸爸..有話想
 
@@ -16,10 +16,11 @@ DefaultContentLanguage: zh-tw
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 permalinks:
     posts: /:year/:month/:slug/
+    # page: /:slug/
 
 params:
     mainSections:
@@ -29,7 +30,7 @@ params:
     favicon:
 
     footer:
-        since: 2021
+        since: 2020
         customText:
 
     dateFormat:
@@ -37,19 +38,19 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        # emoji: 🍥
-        subtitle: 人生階段已晉升人父，本想以親子文為主，怎料得到時事文較受親睞，結果偏偏又多寫了家庭系列。也是個中醫實踐者，將會揉合各主題，帶出生活相關的中醫普及。
+        emoji: 🍥
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
             local: true
-            src: img/virtual.jpeg
+            src: img/avatar.png
 
     article:
         math: false
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -63,17 +64,79 @@ params:
             admin:
             adminLabel:
 
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+
+        remark42:
+            host:
+            site:
+            locale:
+
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        waline:
+            serverURL:
+            lang:
+            visitor:
+            avatar:
+            emoji:
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            placeholder:
+            locale:
+                admin: Admin
+
+        twikoo:
+            envId:
+            region:
+            path:
+            lang:
+
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner: 
+            admin:  
+            repo: 
+            clientID: 
+            clientSecret: 
+        
+        cusdis:
+            host: 
+            id: 
+
     widgets:
         enabled:
-            # - search
-            # - archives
+            - search
+            - archives
             - tag-cloud
 
-        # archives:
-        #     limit: 5
+        archives:
+            limit: 5
 
         tagCloud:
-            limit: 100
+            limit: 10
 
     opengraph:
         twitter:
@@ -105,29 +168,29 @@ params:
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-# menu:
-#     main:
-#         - identifier: home
-#           name: Home
-#           url: /
-#           weight: -100
-#           params:
-#               ### For demonstration purpose, the home link will be open in a new tab
-#               newTab: true
-#               icon: home
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: true
+              icon: home
     
-#     social:
-#         - identifier: instagram
-#           name: Instagram
-#           url: https://instagram.com/Jun1sMe
-#           params:
-#             icon: brand-instagram
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/CaiJimmy/hugo-theme-stack
+          params:
+            icon: brand-github
             
-#         - identifier: twitter
-#           name: Twitter
-#           url: https://twitter.com
-#           params:
-#             icon: brand-twitter
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
+          params:
+            icon: brand-twitter
 
 related:
     includeNewer: true

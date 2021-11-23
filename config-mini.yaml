@@ -1,0 +1,79 @@
+baseURL: https://jun1sme.github.io/
+languageCode: zh-tw
+title: JuJu爸爸..有話想
+theme: mini
+paginate: 7
+
+## Default content language, support en (English) / zh (Chinese) / nl (Dutch), default 'en'
+defaultContentLanguage: en
+
+hasCJKLanguage: true
+permalinks:
+  posts: /:year/:month/:slug/
+
+googleAnalytics: G-6M33N4VGSN
+disqusShortname: jun1sme
+
+## Hugo Configure Markup
+## More info: https://gohugo.io/getting-started/configuration-markup#
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+  # tableOfContents:
+  #   endLevel: 3
+  #   ordered: false
+  #   startLevel: 2
+
+## Social links in footer, support github,twitter,stackoverflow,facebook
+social:
+  # github: your-github-link
+  # twitter: your-github-link
+  # stackoverflow: your-github-link
+  # facebook: your-facebook-link
+
+
+## Site parameters
+params:
+  author: Ju爸
+  bio: 人生階段已晉升人父，本想以親子文為主，怎料得到時事文較受親睞，結果偏偏又多寫了家庭系列。
+  description: 也是個中醫實踐者，將會揉合各主題，帶出生活相關的中醫普及；但我不是中醫師，還請自行斟酌。\n如果時間許可，可以把好久好久以前的跨越大洲大洋攤開玩賞，寫下冒險故事。\n至於大學留下的斷簡殘篇，也不知要排到驢年馬月。
+
+
+
+  ###########################################
+  # Optional Configuration
+  ###########################################
+
+  ## To enable RSS, you could set `enableRSS: true`, default is `true`
+  enableRSS: true
+  ## To enable comments, you may need to set `disqusShortname`
+  enableComments: true
+  ## To enable comments, you may need to set `googleAnalytics`
+  enableGoogleAnalytics: true
+  ## To enable table of content, you could set `showToc: true`, default is `false`
+  # showToc: true
+  ## To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
+  # showPowerBy: true
+  ## To enable math typesetting , you could set `math: true`, default is `false`
+  # math: false
+  ## To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
+  # hiddenPostSummaryInHomePage: false
+  ## Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
+  # copyright: '' 
+
+  # Extra links in navigation
+  links:
+    ## e.g.
+    # - name: Project
+    #   path: /project
+
+  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
+  customCSS:
+    ## e.g.
+    # - css/custom.css # local css in `static/css/custom.css`
+    # - https://example.com/custom.css # remote css
+  customJS:
+    ## e.g.
+    # - js/custom.js # local js in `static/js/custom.js`
+    # - https://example.com/custom.js # remote js
