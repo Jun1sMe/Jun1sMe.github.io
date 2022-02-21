@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on JuJu爸爸..有話無說</title>
+    <link>https://jun1sme.github.io/about/</link>
+    <description>Recent content in About on JuJu爸爸..有話無說</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jun1sme.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
